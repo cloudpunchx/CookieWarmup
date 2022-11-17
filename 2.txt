@@ -1,0 +1,27 @@
+WARMUP:
+
+1. Create a folder called CookieWarmup, connect to Git/GitHub
+2. Create the files index.html, app.js, display.html and display.js
+  2.1. Link app.js to index.html and display.js to display.html
+3. Link to the Cookies package in BOTH html files
+4. Configure your debugger
+5. In your index.html, create a button that asks the user to click
+6. In your app.js file, write logic that does the following:
+  6.1. Create a cookie called `click_count` and set it to 0
+  6.2. Add an event listener that reacts to clicks on the button
+  6.3. When the button is clicked: 
+    6.3.1. Read the current value from the cookie
+    6.3.2. Add one to this value
+    6.3.3. Update the cookie to have the new value
+7. In index.html, add a link that will take the user to the display.html page
+8. In display.js, add the following logic:
+  8.1. Reads the value from the `click_count` cookie
+  8.2. Injects an h1 tag onto the page that tells the user how many times they have clicked the button
+  8.3. If there is no value in the cookie, the user should just be shown 0 as the amount of clicks.
+9. Modify the logic in the app.js file to only create the `click_count` cookie if it does not already exist.
+10. Add two more buttons to the index.html page
+11. Add click reactivity to each button
+12. Apply the same logic as the first button to each button individually
+  12.1. This means each button should get their own cookie!
+13. Modify display.js to now show the amount of clicks for each button individually
+  13.1. This means there will be 3 h1 tags inserted onto the page.
